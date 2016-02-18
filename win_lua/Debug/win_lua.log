@@ -1,0 +1,15 @@
+﻿Build started 1/17/2016 10:41:57 PM.
+     1>Project "C:\Users\dskliarov\Documents\cpp_projects\win_lua\win_lua\win_lua.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dskliarov\Documents\cpp_projects\win_lua\Debug\win_lua.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lua53.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dskliarov\Documents\cpp_projects\win_lua\Debug\win_lua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dskliarov\Documents\cpp_projects\win_lua\Debug\win_lua.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\win_lua.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>lua53.lib(lauxlib.obj) : error LNK2019: unresolved external symbol ___acrt_iob_func referenced in function _luaL_loadfilex
+     1>lua53.lib(lauxlib.obj) : error LNK2019: unresolved external symbol ___stdio_common_vfprintf referenced in function __vfprintf_l
+     1>lua53.lib(lobject.obj) : error LNK2019: unresolved external symbol ___stdio_common_vsprintf referenced in function __vsnprintf_l
+     1>C:\Users\dskliarov\Documents\cpp_projects\win_lua\Debug\win_lua.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\dskliarov\Documents\cpp_projects\win_lua\win_lua\win_lua.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18
